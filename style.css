@@ -12,53 +12,53 @@ body {
 }
 
 .navMenuAni a {
-    color: #fff;
+    color: #000;
     text-align: center;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 500;
     display: inline-block;
-    width: 120px;
+    width: 140px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 
 .navMenuAni a:hover {
-    color: #FF7600;
+    color: #0DA0A8;
 }
 
 .navMenuAni .dot {
     width: 8px;
     height: 8px;
-    background: #FF7600;
+    background: #0DA0A8;
     border-radius: 50%;
     opacity: 0;
-    -webkit-transform: translateX(30px);
-    transform: translateX(30px);
+    -webkit-transform: translateX(28px);
+    transform: translateX(28px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 
 .navMenuAni a:nth-child(1):hover~.dot {
-    -webkit-transform: translateX(50px);
-    transform: translateX(50px);
+    -webkit-transform: translateX(65px);
+    transform: translateX(65px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
 }
 
 .navMenuAni a:nth-child(2):hover~.dot {
-    -webkit-transform: translateX(180px);
-    transform: translateX(180px);
+    -webkit-transform: translateX(213px);
+    transform: translateX(213px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
 }
 
 .navMenuAni a:nth-child(3):hover~.dot {
-    -webkit-transform: translateX(305px);
-    transform: translateX(305px);
+    -webkit-transform: translateX(355px);
+    transform: translateX(355px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
@@ -95,16 +95,7 @@ ul {
 }
 
 .nav {
-    background: #00323B;
-}
-
-.nav title {
-    margin: 0px 30px;
-}
-
-.nav item {
-    display: inline-block;
-    margin: 0px 30px;
+    background: #F56503;
 }
 
 .hero {
@@ -112,14 +103,112 @@ ul {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #00414C;
+    background: #F56503;
 }
 
 h1 {
-    color: #fff;
-    font-size: 6em;
-    margin: 0 90px;
+    font-size: 4.5em;
+    margin: 0 60px;
     text-align: center;
+}
+
+.textPower {
+    color: #000000;
+}
+
+.slider {
+    width: 800px;
+    height: 500;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 60px auto;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #000;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+.navigatio-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigatio-auto div {
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigatio-auto nav:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigatio-auto .auto-btn1 {
+    background: #000;
+}
+
+#radio2:checked~.navigatio-auto .auto-btn2 {
+    background: #000;
+}
+
+#radio3:checked~.navigatio-auto .auto-btn3 {
+    background: #000;
 }
 
 
@@ -134,24 +223,52 @@ h1 {
     align-items: baseline;
     display: flex;
     margin: 0 60px;
-    padding: 15px 0;
+    padding: 8px 0;
 }
 
 .subnav title {
     font-size: 1.25em;
     display: inline-block;
-    margin: 0 8px;
-    padding: 5px;
+    margin: 0 2px;
+    padding: 2px;
+}
+
+.doe {
+    color: #fff;
 }
 
 
 /* ---- sections ----*/
 
-.section {
+.sectionOne {
     max-width: 900px;
     margin: 60px auto;
     padding: 90px 30px;
-    background-color: #FF7600;
+    background-color: #0DA0A8;
+    border-radius: 10px;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+.sectionTwo {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 90px 30px;
+    background-color: #0DA0A8;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sectionThree {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 90px 30px;
+    background-color: #0DA0A8;
+    border-radius: 10px;
     text-align: center;
 }
 
