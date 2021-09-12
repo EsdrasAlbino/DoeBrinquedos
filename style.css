@@ -121,7 +121,7 @@ h1 {
     height: 500;
     border-radius: 10px;
     overflow: hidden;
-    margin: 60px auto;
+    margin: 20px auto;
 }
 
 .slides {
@@ -140,7 +140,7 @@ h1 {
 }
 
 .slide img {
-    width: 800px;
+    max-width: 900px;
     height: 500px;
 }
 
@@ -256,7 +256,7 @@ hr {
 
 .sectionTwo {
     max-width: 900px;
-    margin: 60px auto;
+    margin: 30px auto;
     padding: 90px 30px;
     background-color: #0DA0A8;
     border-radius: 10px;
@@ -270,6 +270,38 @@ hr {
     background-color: #0DA0A8;
     border-radius: 10px;
     text-align: center;
+}
+
+.doa-pix {
+    margin: 10px auto;
+    padding: 30px 5%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.botao01 {
+    background: -webkit-linear-gradient(bottom, #000, #000 70%);
+    background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    border: 1px solid #CCCCCE;
+    border-radius: 10px;
+    color: #0DA0A8;
+    display: flex;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #FFF;
+    padding: 5px 15px;
+    margin: 5px 60%;
+    position: relative;
+    width: 80px;
+    align-items: center;
 }
 
 section>h2 {
