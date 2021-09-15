@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 body {
     font-family: "Montserrat", sans-serif;
+    min-width: 320px;
 }
 
 .navMenuAni {
@@ -117,8 +118,8 @@ h1 {
 }
 
 .slider {
-    width: 800px;
-    height: 500;
+    width: 50%;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
     margin: 20px auto;
@@ -290,19 +291,30 @@ hr {
     color: #0DA0A8;
     display: flex;
     font-family: "Trebuchet MS";
-    font-size: 14px;
+    font-size: 26px;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 35px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 #FFF;
     padding: 5px 15px;
     margin: 5px 60%;
     position: relative;
     top: -250px;
-    width: 80px;
+    width: 130px;
     align-items: center;
+}
+
+.text-button {
+    display: flex;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    width: 200px;
+    text-align: justify;
+    position: relative;
+    top: -280px;
+    padding: 5px 15px;
+    margin: 5px 59%;
 }
 
 section>h2 {
