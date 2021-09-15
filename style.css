@@ -300,6 +300,7 @@ hr {
     padding: 5px 15px;
     margin: 5px 60%;
     position: relative;
+    top: -250px;
     width: 80px;
     align-items: center;
 }
