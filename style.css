@@ -6,7 +6,7 @@ body {
 
 .navMenuAni {
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -15,11 +15,13 @@ body {
 .navMenuAni a {
     color: #000;
     text-align: center;
+    align-items: center;
+    padding-top: 10px;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     font-weight: 500;
-    display: inline-block;
+    display: grid;
     width: 140px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -278,6 +280,7 @@ hr {
     padding: 30px 5%;
     border-radius: 10px;
     text-align: left;
+    min-width: 150px;
 }
 
 .botao01 {
@@ -300,7 +303,6 @@ hr {
     padding: 5px 15px;
     margin: 5px 60%;
     position: relative;
-    top: -250px;
     width: 130px;
     align-items: center;
 }
