@@ -30,50 +30,6 @@ body {
     color: #0DA0A8;
 }
 
-.navMenuAni .dot {
-    width: 8px;
-    height: 8px;
-    background: #0DA0A8;
-    border-radius: 50%;
-    opacity: 0;
-    -webkit-transform: translateX(28px);
-    transform: translateX(28px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-.navMenuAni a:nth-child(1):hover~.dot {
-    -webkit-transform: translateX(65px);
-    transform: translateX(65px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-}
-
-.navMenuAni a:nth-child(2):hover~.dot {
-    -webkit-transform: translateX(213px);
-    transform: translateX(213px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-}
-
-.navMenuAni a:nth-child(3):hover~.dot {
-    -webkit-transform: translateX(355px);
-    transform: translateX(355px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-}
-
-.navMenuAni a:nth-child(4):hover~.dot {
-    -webkit-transform: translateX(285px);
-    transform: translateX(285px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-}
-
 
 /* ---- nav ----*/
 
@@ -129,13 +85,13 @@ h1 {
     color: #000000;
 }
 
-.slider {
-    position: relative;
+.ft-turma img {
+    display: block;
+    align-content: center;
     background: #0DA0A8;
-    width: 800px;
-    min-height: 500px;
-    margin: 20px;
-    overflow: hidden;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
 }
 
