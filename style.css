@@ -163,20 +163,40 @@ hr {
 }
 
 .doacao {
-    display: inline-block;
+    /*  display: inline-block;
+    position: relative;
+    width: 80%;
+    height: 200px;*/
 }
 
 .doa-pix {
-    display: block;
-    border-radius: 10px;
+    /* display: block;
+    align-content: center;
     background: #0DA0A8;
+    margin-block-end: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    bottom: 20%;*/
+    display: block;
+    align-content: center;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.content {
-    position: relative;
-    left: 150px;
+.text-button {
+    position: absolute;
+    left: 60%;
+    color: black;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    width: 200px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .botao01 {
@@ -199,19 +219,9 @@ hr {
     padding: 5px 15px;
     margin: 5px 60%;
     position: relative;
+    left: 5%;
     width: 130px;
     align-items: center;
-}
-
-.text-button {
-    font-size: 20px;
-    font-family: "Trebuchet MS";
-    width: 200px;
-    text-align: justify;
-    position: relative;
-    top: -280px;
-    padding: 5px 15px;
-    margin: 5px 59%;
 }
 
 section>h2 {
@@ -226,5 +236,10 @@ section>p {
 }
 
 footer {
+    position: relative;
+    top: 300px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #0DA0A8;
     text-align: center;
 }
