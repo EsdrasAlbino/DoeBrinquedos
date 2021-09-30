@@ -227,3 +227,21 @@ footer {
     background-color: #0DA0A8;
     text-align: center;
 }
+
+@media (max-width: 547px) {
+    .doa-pix {
+        align-content: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    h1 {
+        font-size: 3.5em;
+    }
+    .botao01 {
+        font-size: 20px;
+        padding: 5px 15px;
+        margin: 0px 35%;
+        width: 100px;
+        align-items: center;
+    }
+}
